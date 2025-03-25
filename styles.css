@@ -1,0 +1,79 @@
+/* General Styling */
+body {
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px; /* Slightly smaller font */
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card Styling */
+.card {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid hsl(0, 0%, 7%);
+    border-radius: 16px; /* Slightly smaller radius */
+    max-width: 250px; /* Smaller card */
+    width: 90%;
+    text-align: left;
+    box-shadow: 6px 6px 0 rgb(18, 18, 18); /* Slightly smaller shadow */
+    padding: 20px;
+}
+
+/* Image Styling */
+.thumbnail {
+    width: 100%;
+    border-radius: 10px; /* Keep it rounded */
+    margin-bottom: 8px;
+}
+
+/* Text and Author */
+.tag {
+    font-size: 12px; /* Smaller text */
+    padding: 4px 8px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 6px;
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom: 4px;
+}
+
+.date {
+    font-size: 12px; /* Match smaller text */
+    color: hsl(0, 0%, 0%); /* Gray color */
+    margin-bottom: 4px; /* Reduce space below */
+}
+
+.content_title {
+    font-size: 16px; /* Smaller title */
+    font-weight: 800;
+    margin: 4px 0;
+}
+
+.content {
+    font-size: 13px; /* Smaller paragraph */
+    color: hsl(0, 0%, 42%);
+}
+
+/* Author Section */
+.author {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+.author_pic {
+    width: 30px; /* Smaller profile picture */
+    height: 30px;
+    border-radius: 50%;
+}
+
+.author_name {
+    font-size: 12px; /* Smaller name */
+    font-weight: bold;
+}
